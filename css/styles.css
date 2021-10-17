@@ -1,0 +1,390 @@
+*{
+    margin:0!important;
+    padding: 0!important;;
+}
+
+/*----------- BARRA NAVEGACION CENTRAL -------------*/
+.barra-navegacion{
+    background-color: rgb(77, 77, 77);
+    
+}
+
+
+
+
+.barra-navegacion .navegacion-links a.nav-link.title-white{
+    color:white;
+
+}
+
+.barra-navegacion .navegacion-links a.nav-link.title-grey{
+    color:rgb(184, 184, 184);
+
+}
+
+.barra-navegacion .navegacion-links a.nav-link.title-green{
+    color:rgb(9, 139, 9);
+
+}
+
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .barra-navegacion .navegacion-links a.nav-link{
+        font-size: 0.8rem;
+    
+    }
+    
+  }
+
+.barra-navegacion .btn-hamburger{
+background-color: hotpink;
+}
+
+
+/*----------- BARRA NAVEGACION CENTRAL -------------*/
+
+/*----------- JUMBOTRON -------------*/
+
+
+ /*<img src="src/ba1.jpg" class="card-img " alt="imagen-presentacion">*/
+
+
+
+.jumbotron-central .card{
+    background-image: url("../src/ba1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.jumbotron-central .card .card-title{
+    font-size: 2.5rem;
+}
+
+    /* On screens that are 992px or less*/
+    @media screen and (max-width: 992px) {
+    .jumbotron-central .card .card-title{
+        font-size: 2rem;
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .jumbotron-central .card .card-title{
+        font-size: 1.6rem;
+    }
+    
+  }
+
+.jumbotron-central .card .card-text{
+    font-size: 1.2rem;
+}
+
+   /* On screens that are 992px or less*/
+   @media screen and (max-width: 992px) {
+    .jumbotron-central .card .card-text{
+        font-size: 1rem;
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .jumbotron-central .card .card-text{
+        font-size: 0.9rem;
+    }
+    
+  }
+
+.jumbotron-central  {
+    background-color: rgba(5, 5, 5, 0.938);
+}
+
+
+/*----------- JUMBOTRON -------------*/
+
+
+/*----------- SECCION ORADORES -------------*/
+.oradores-principales .title1-oradores{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+   /* On screens that are 992px or less*/
+   @media screen and (max-width: 992px) {
+    .oradores-principales .title1-oradores{
+        font-size: 1rem;
+     
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .oradores-principales .title1-oradores{
+        font-size: 0.9rem;
+       
+    }
+    
+  }
+
+.oradores-principales .title2-oradores{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+   /* On screens that are 992px or less*/
+   @media screen and (max-width: 992px) {
+    .oradores-principales .title2-oradores{
+        font-size: 2rem;
+       
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .oradores-principales .title2-oradores{
+        font-size: 1.8rem;
+        
+    }
+    
+  }
+
+  .oradores-principales .nombre{
+      font-size: 3rem;
+  }
+
+  
+   /* On screens that are 992px or less*/
+   @media screen and (max-width: 992px) {
+    .oradores-principales .nombre{
+        font-size: 2.4rem;
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .oradores-principales .nombre{
+        font-size: 1.8rem;
+    }
+    
+  }
+
+  .oradores-principales .texto{
+    font-size: 2rem;
+}
+
+
+ /* On screens that are 992px or less*/
+ @media screen and (max-width: 992px) {
+  .oradores-principales .texto{
+      font-size: 1.5rem;
+  }
+  
+}
+
+/* On screens that are 600px or less*/
+@media screen and (max-width: 600px) {
+  .oradores-principales .texto{
+      font-size: 0.8rem;
+  }
+  
+}
+
+/*----------- SECCION ORADORES -------------*/
+
+/*----------- SECCION HONOLULU -------------*/
+.seccion-honolulu .seccion-gris{
+    background-color: rgb(77, 77, 77);
+    color:white;
+}
+
+.seccion-honolulu .seccion-gris .btn-secc-grey:hover{
+color: gray;
+}
+
+.seccion-honolulu .seccion-gris h1{
+    font-size: 1.8rem;
+    margin:1rem 0rem;
+}
+
+ /* On screens that are 992px or less*/
+ @media screen and (max-width: 992px) {
+    .seccion-honolulu .seccion-gris h1{
+        font-size: 1.2rem;
+       
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .seccion-honolulu .seccion-gris h1{
+        font-size: 1.8rem;
+       
+    }
+    
+  }
+
+  .seccion-honolulu .seccion-gris .texto{
+    font-size: 1.8rem;
+    margin:1rem 0rem;
+}
+
+ /* On screens that are 992px or less*/
+ @media screen and (max-width: 992px) {
+    .seccion-honolulu .seccion-gris .texto{
+        font-size: 1.2rem;
+       
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .seccion-honolulu .seccion-gris .texto{
+        font-size: 0.9rem;
+       
+    }
+    
+  }
+
+/*----------- SECCION HONOLULU -------------*/
+
+/*----------- FORMULARIO -------------*/
+.title1-form{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+
+ /* On screens that are 992px or less*/
+ @media screen and (max-width: 992px) {
+    .title1-form{
+        font-size: 1.2rem;
+     
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .title1-form{
+        font-size: 0.9rem;
+       
+    }
+  }
+
+.title2-form{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+ /* On screens that are 992px or less*/
+ @media screen and (max-width: 992px) {
+    .title2-form{
+        font-size: 2.1rem;
+     
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .title2-form{
+        font-size: 0.9rem;
+       
+    }
+  }
+
+.title3-form{
+font-size: 1.2rem;
+font-weight: normal;
+}
+
+ /* On screens that are 992px or less*/
+ @media screen and (max-width: 992px) {
+    .title3-form{
+        font-size: 2.1rem;
+     
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .title3-form{
+        font-size: 1rem;
+       
+    }
+  }
+
+.area-form{
+    font-size: 2rem;
+}
+
+ /* On screens that are 992px or less*/
+ @media screen and (max-width: 992px) {
+    .area-form{
+        font-size: 1.8rem;
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .area-form{
+        font-size: 1.5rem;
+    }
+  }
+.btn-formulario{
+    color:white;
+    background-color:rgb(143, 218, 31);
+    font-size: 1.5rem;
+    border-color: transparent;
+}
+
+.btn-formulario:hover{
+    background-color:rgb(131, 202, 25);
+    border-color: transparent;
+}
+/*----------- FORMULARIO -------------*/
+
+/*----------- BARRA INFERIOR -------------*/
+.barra-navegacion-inferior{
+background-color: rgb(24, 71, 57);
+color:white;
+font-size: 1.2rem;
+font-weight: normal;
+padding:2.5rem 0rem !important;
+}
+
+
+
+.barra-navegacion-inferior a.nav-link{
+    color:white;
+    width: 8rem;
+}
+
+
+ /* On screens that are 992px or less*/
+ @media screen and (max-width: 992px) {
+    .area-form{
+        font-size: 1.8rem;
+    }
+    
+  }
+  
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 600px) {
+    .area-form{
+        font-size: 1.5rem;
+    }
+  }
+
+/*----------- BARRA INFERIOR -------------*/
