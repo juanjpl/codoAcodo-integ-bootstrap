@@ -176,14 +176,14 @@ background-color: hotpink;
   }
 
   .oradores-principales .texto{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 
  /* On screens that are 992px or less*/
  @media screen and (max-width: 992px) {
   .oradores-principales .texto{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
   }
   
 }
@@ -208,15 +208,15 @@ background-color: hotpink;
 color: gray;
 }
 
-.seccion-honolulu .seccion-gris h1{
-    font-size: 1.8rem;
+.seccion-honolulu .seccion-gris .titulo{
+    font-size: 2.4rem;
     margin:1rem 0rem;
 }
 
  /* On screens that are 992px or less*/
  @media screen and (max-width: 992px) {
-    .seccion-honolulu .seccion-gris h1{
-        font-size: 1.2rem;
+    .seccion-honolulu .seccion-gris .titulo{
+        font-size: 2.2rem;
        
     }
     
@@ -224,7 +224,7 @@ color: gray;
   
   /* On screens that are 600px or less*/
   @media screen and (max-width: 600px) {
-    .seccion-honolulu .seccion-gris h1{
+    .seccion-honolulu .seccion-gris .titulo{
         font-size: 1.8rem;
        
     }
@@ -232,7 +232,7 @@ color: gray;
   }
 
   .seccion-honolulu .seccion-gris .texto{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin:1rem 0rem;
 }
 
@@ -288,7 +288,7 @@ color: gray;
  /* On screens that are 992px or less*/
  @media screen and (max-width: 992px) {
     .title2-form{
-        font-size: 2.1rem;
+        font-size: 2rem;
      
     }
     
@@ -339,7 +339,7 @@ font-weight: normal;
   /* On screens that are 600px or less*/
   @media screen and (max-width: 600px) {
     .area-form{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
   }
 .btn-formulario{
