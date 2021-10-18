@@ -182,7 +182,7 @@ background-position: center;
   }
 
   .oradores-principales .texto{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 
@@ -208,8 +208,9 @@ background-position: center;
 .seccion-honolulu .seccion-foto{
     background-image: url("../src/honolulu.jpg") ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover ;
     background-position: center;
+    
 
     
   
@@ -226,7 +227,7 @@ background-position: center;
   /* On screens that are 600px or less*/
   @media screen and (max-width: 598px) {
     .seccion-honolulu .seccion-foto{
-       height: 100%;
+       height: 100vh;
     
      }
     
