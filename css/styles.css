@@ -37,7 +37,7 @@
   }
 
 .barra-navegacion .btn-hamburger{
-background-color: hotpink;
+background-color: rgb(248, 179, 114);
 }
 
 
@@ -45,16 +45,24 @@ background-color: hotpink;
 
 /*----------- JUMBOTRON -------------*/
 
+/*
 
- /*<img src="src/ba1.jpg" class="card-img " alt="imagen-presentacion">*/
+
+
+
+*/
+
 
 
 
 .jumbotron-central .card{
-    background-image: url("../src/ba1.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.2049194677871149) 0%, rgba(0,0,0,0.2) 100%) , url("../src/ba1.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 
 
@@ -99,9 +107,7 @@ background-color: hotpink;
     
   }
 
-.jumbotron-central  {
-    background-color: rgba(5, 5, 5, 0.938);
-}
+
 
 
 /*----------- JUMBOTRON -------------*/
@@ -155,14 +161,14 @@ background-color: hotpink;
   }
 
   .oradores-principales .nombre{
-      font-size: 3rem;
+      font-size: 1.8rem;
   }
 
   
    /* On screens that are 992px or less*/
    @media screen and (max-width: 992px) {
     .oradores-principales .nombre{
-        font-size: 2.4rem;
+        font-size: 1.6rem;
     }
     
   }
@@ -170,20 +176,20 @@ background-color: hotpink;
   /* On screens that are 600px or less*/
   @media screen and (max-width: 600px) {
     .oradores-principales .nombre{
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
     
   }
 
   .oradores-principales .texto{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 
  /* On screens that are 992px or less*/
  @media screen and (max-width: 992px) {
   .oradores-principales .texto{
-      font-size: 1.2rem;
+      font-size: 1.1rem;
   }
   
 }
@@ -199,6 +205,32 @@ background-color: hotpink;
 /*----------- SECCION ORADORES -------------*/
 
 /*----------- SECCION HONOLULU -------------*/
+.seccion-honolulu .seccion-foto{
+    background-image: url("../src/honolulu.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+  
+}
+
+@media screen and (max-width: 992px) {
+    .seccion-honolulu .seccion-foto{
+       display: block !important;
+       height: 50vh;
+    }
+    
+  }
+
+  /* On screens that are 600px or less*/
+  @media screen and (max-width: 598px) {
+    .seccion-honolulu .seccion-foto{
+       height: 100%;
+    
+     }
+    
+  }
 .seccion-honolulu .seccion-gris{
     background-color: rgb(77, 77, 77);
     color:white;
@@ -209,14 +241,14 @@ color: gray;
 }
 
 .seccion-honolulu .seccion-gris .titulo{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     margin:1rem 0rem;
 }
 
  /* On screens that are 992px or less*/
  @media screen and (max-width: 992px) {
     .seccion-honolulu .seccion-gris .titulo{
-        font-size: 2.2rem;
+        font-size: 2rem;
        
     }
     
@@ -232,14 +264,14 @@ color: gray;
   }
 
   .seccion-honolulu .seccion-gris .texto{
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin:1rem 0rem;
 }
 
  /* On screens that are 992px or less*/
  @media screen and (max-width: 992px) {
     .seccion-honolulu .seccion-gris .texto{
-        font-size: 1.2rem;
+        font-size: 0.9rem;
        
     }
     
@@ -359,7 +391,7 @@ font-weight: normal;
 .barra-navegacion-inferior{
 background-color: rgb(24, 71, 57);
 color:white;
-font-size: 1.2rem;
+
 font-weight: normal;
 padding:2.5rem 0rem !important;
 }
@@ -368,22 +400,26 @@ padding:2.5rem 0rem !important;
 
 .barra-navegacion-inferior a.nav-link{
     color:white;
+    font-size: 1.2rem;
     width: 8rem;
 }
 
 
  /* On screens that are 992px or less*/
  @media screen and (max-width: 992px) {
-    .area-form{
-        font-size: 1.8rem;
+    .barra-navegacion-inferior a.nav-link{
+        font-size: 1rem;
+        width: 8rem;
     }
     
   }
   
   /* On screens that are 600px or less*/
   @media screen and (max-width: 600px) {
-    .area-form{
-        font-size: 1.5rem;
+    .barra-navegacion-inferior a.nav-link{
+        font-size: 0.9rem;
+        width: 8rem;
+      
     }
   }
 
